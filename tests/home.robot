@@ -18,3 +18,5 @@ Deve abrir a tela principal
     Wait Until Page Contains    by Papito!    10
 
     Close Application
+
+    ####
