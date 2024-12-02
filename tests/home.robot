@@ -9,7 +9,7 @@ Deve abrir a tela principal
     ...                 platformName=Android
     ...                 deviceName=Android Emulator
     ...                 automationName=UIAutomator2
-    ...                 app=${EXECDIR}/app/yodapp-beta.apk
+    ...                 app=${EXECDIR}/app/android/yodapp-beta.apk
     ...                 udid=emulator-5554
     ...                 autoGrantPermissions=true
 
