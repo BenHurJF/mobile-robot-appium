@@ -13,12 +13,7 @@ Deve abrir a tela principal
     ...                 udid=emulator-5554
     ...                 autoGrantPermissions=true
 
-    Wait Until Page Contains    Yodapp    10
-    Wait Until Page Contains    Mobile Training    10
-    Wait Until Page Contains    by Papito!    10
+    Wait Until Page Contains         QAX    10
+    Click Text                       QAX
 
-    Click Text    text=""
-
-    Close Application
-
-    ####
+   # Close Application
