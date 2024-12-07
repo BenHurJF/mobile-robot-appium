@@ -16,4 +16,11 @@ Deve abrir a tela principal
     Wait Until Page Contains         QAX    10
     Click Text                       QAX
 
-   # Close Application
+    ${menu}    Set Variable    xpath=//android.widget.ImageButton[@content-desc="Open navigation drawer"]
+
+    Wait Until Element Is Visible    ${menu}    10
+    Click Element                    ${menu}
+
+    Sleep    5
+
+    Close Application
