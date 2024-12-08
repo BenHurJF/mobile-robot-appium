@@ -18,14 +18,19 @@ Deve abrir a tela principal
 
     ${menu}    Set Variable    xpath=//*[@resource-id="com.qaxperience.yodapp:id/toolbar"]//*[@content-desc="Open navigation drawer"]
 
-    Wait Until Element Is Visible    ${menu}    10
+    Wait Until Element Is Visible    ${menu}    5
     Click Element                    ${menu}
     
-    ${cliqueEmBotoes}    Set Variable    xpath=//*[@resource-id="com.qaxperience.yodapp:id/navView"]//*[@text="Clique em Botões"]
+    ${menuCliqueBotoes}    Set Variable    xpath=//*[@resource-id="com.qaxperience.yodapp:id/navView"]//*[@text="Clique em Botões"]
     
-    Wait Until Element Is Visible    ${cliqueEmBotoes}
-    Click Element                    ${cliqueEmBotoes}
+    Wait Until Element Is Visible    ${menuCliqueBotoes}    5
+    Click Element                    ${menuCliqueBotoes}
 
-   # Sleep    5
+    Wait Until Element Is Visible    Clique simples    9
+    Click Text                       Clique simples
+    Wait Until Element Is Visible    Botão clique simples 9
+
+
+    Sleep    10
 
     Close Application
